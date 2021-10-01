@@ -7,13 +7,13 @@
 \documentclass[9pt]{beamer}
 \usetheme[white]{Illinois}
 %\title[short title]{long title}
-\title[Short Title]{HALEU Demand in No and Low Growth Transitions to Advanced Reactors }
+\title[Short Title]{Measurement of Hydrogen $T_1$ and $T_2$ Relaxation Times in Copper Sulfate Solutions Using PNMR}
 %\subtitle[short subtitle]{long subtitle}
-\subtitle[Short SubTitle]{HALEU Demand Analysis}
+\subtitle[Short SubTitle]{PNMR Hydrogen Relaxation Times}
 %\author[short name]{long name}
-\author[Your Name]{Nathan Ryan\\Advanced Reactors and Fuel Cycles Group}
+\author[Your Name]{Nathan Ryan\\Physics 403, Fall 2021}
 %\date[short date]{long date}
-\date[09.02.2021]{Sept 2, 2021}
+\date[09.02.2021]{Oct 12, 2021}
 %\institution[short name]{long name}
 \institute[UIUC]{University of Illinois at Urbana-Champaign}
 
@@ -27,6 +27,9 @@
 \usepackage{microtype} % if using PDF
 \usepackage{bigints}
 \usepackage{minted}
+\usepackage{animate}
+\usepackage{xmpmulti}
+
 
 \newcommand{\units}[1] {\:\text{#1}}%
 \newcommand{\SN}{S$_N$}%{S$_\text{N}$}%{$S_N$}%
@@ -93,19 +96,23 @@
 }
 
 \section{Background}
-\subsection{Small Modular Reactors}
-\input{smr}
-\subsection{X-Energy Xe-100}
-\input{xe100}
-\subsection{USNC MMR}
-\input{unsc}
+\subsection{Theory}
+\input{theory}
+\subsection{Goal and Motivation}
+\input{goal}
+\subsection{PNMR Techniques}
+\input{tech}
 \section{Methods}
-\subsection{Cyclus}
-\input{cyclus}
-\subsection{Scenarios}
-\input{scenarios}
+\subsection{$180^{\circ}\,—\,90^{\circ}$}
+\input{pulse}
+\section{Results}
+\input{results}
 \section{Conclusion}
+\subsection{Conclusion}
 \input{conclusion}
+\subsection{Continuing Study}
+\input{cont}
+
 %%--------------------------------%%
 %%--------------------------------%%
 \begin{frame}[allowframebreaks]
@@ -114,9 +121,10 @@
   {\footnotesize \bibliography{bibliography.bib} }
 
 \end{frame}
-
 %%--------------------------------%%
-
+\input{acks}
+\input{end}
+\input{backup}
 
 \end{document}
 

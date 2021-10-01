@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{spin_echo}
+Spin echo, 2020.
+
+\bibitem{nmr_biochem}
+Teresa W.-M. Fan and Andrew~N. Lane.
+\newblock Applications of nmr spectroscopy to systems biochemistry, 2017.
+
+\bibitem{init_polar}
+Ben Nashman.
+\newblock How to measure a system without touching it: Magnetic resonance,
+  2018.
+
+\bibitem{mri_tumor}
+Tamije~S. Perumal and Viji Palanisamy.
+\newblock Performance analysis of clustering algorithms in brain tumor
+  detection of mr images, 2011.
+
+\end{thebibliography}
