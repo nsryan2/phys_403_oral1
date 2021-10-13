@@ -9,13 +9,13 @@
 %\title[short title]{long title}
 \title[Short Title]{Measurement of Hydrogen $T_1$ and $T_2$ Relaxation Times in Copper Sulfate Solutions Using PNMR}
 %\subtitle[short subtitle]{long subtitle}
-\subtitle[Short SubTitle]{PNMR Hydrogen Relaxation Times}
+%\subtitle[Short SubTitle]{PNMR Hydrogen Relaxation Times}
 %\author[short name]{long name}
 \author[Your Name]{Nathan Ryan\\Physics 403, Fall 2021}
 %\date[short date]{long date}
-\date[09.02.2021]{Oct 12, 2021}
+\date[09.02.2021]{Oct 14, 2021}
 %\institution[short name]{long name}
-\institute[UIUC]{University of Illinois at Urbana-Champaign}
+\institute[UIUC]{\large University of Illinois at Urbana-Champaign}
 
 %\usepackage{bbding}
 \usepackage{amsfonts}
@@ -29,12 +29,18 @@
 \usepackage{minted}
 \usepackage{animate}
 \usepackage{xmpmulti}
+\usepackage{fancyvrb}
+\usepackage{physics}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{amssymb}
 
 
 \newcommand{\units}[1] {\:\text{#1}}%
 \newcommand{\SN}{S$_N$}%{S$_\text{N}$}%{$S_N$}%
-\DeclareMathOperator{\erf}{erf}
-%I need some complimentary error funcitons... 
+%\DeclareMathOperator{\erf}{erf}
+%I need some complimentary error functions... 
 \DeclareMathOperator{\erfc}{erfc}
 %Those icons in the references are terrible looking
 \setbeamertemplate{bibliography item}[text]
@@ -58,10 +64,10 @@
 \setbeamertemplate{footline}
 {
   \leavevmode%
-  \hbox{%
+  \large\hbox{%
     \rightline{\insertframenumber{} / \inserttotalframenumber\hspace*{1ex}}
   }%
-  \vskip0pt%
+  \vskip5pt%
 }
 \makeatletter
 \begin{document}
